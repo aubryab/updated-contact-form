@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form" action="mailto:aubrybratcher@gmail.com" method="post">
+            <h2>Contact me</h2>
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter name">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Enter subject">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <!-- CHANGED: changed id -->
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Type your message here :)"></textarea>
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
